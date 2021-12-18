@@ -1,0 +1,178 @@
+﻿
+<!-- ======= Nav  Section ======= -->
+
+*
+{
+    margin:0;
+    padding:0;}
+
+hr
+{
+  color: cyan;
+    border:1px solid cyan;
+  
+  box-shadow:  0 0 5px #33ffff,
+               0 0 20px #66ffff;
+}
+
+.container {
+	position: relative;
+	margin-top: 100px;
+}
+.wave
+    { 
+         position:absolute;
+          bottom:0;
+           left:0;}
+   
+
+nav {
+	position: fixed;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	top: 0;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0 5%;
+	height: 100px;
+
+}
+
+    <!-- ======= Nav end Section ======= -->
+   
+    
+    
+    <!-- ======= Clock Section ======= -->
+   
+ *{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  place-items: center;
+ 
+}
+.wrapper{
+  height: 100px;
+  width: 360px;
+  position: relative;
+  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+  border-radius: 10px;
+  cursor: default;
+  animation: animate 1.5s linear infinite;
+}
+.wrapper .display,
+.wrapper span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper .display{
+  z-index: 999;
+  height: 85px;
+  width: 345px;
+  background: #1b1b1b;
+  border-radius: 6px;
+  text-align: center;
+}
+.display #time{
+  line-height: 85px;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 1.5s linear infinite;
+}
+@keyframes animate {
+  100%{
+    filter: hue-rotate(360deg);
+  }
+}
+.wrapper span{
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background: inherit;
+}
+.wrapper span:first-child{
+  filter: blur(7px);
+}
+.wrapper span:last-child{
+  filter: blur(20px);
+}
+
+<!-- ======= Clock end Section ======= -->
+
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+s
+
+
+
+
+
+
+
+
+
+ <!-- teacher section starts  -->
+ 
+ .teacher{
+  background:#f9f9f9;
+}
+
+.teacher .card-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding:2rem 0;
+}
+
+.teacher .card-container .card{
+  padding:2rem;
+  margin: 2rem;
+  background:#fff;
+  text-align: center;
+  width:28rem;
+  box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+}
+
+.teacher .card-container .card img{
+  height:30rem;
+  width:100%;
+  object-fit: cover;
+  filter: grayscale();
+  transition: .2s;
+}
+
+.teacher .card-container .card:hover img{
+  filter: grayscale(0);
+}
+
+
+
+.teacher .card-container .card p{
+  font-size: 1.7rem;
+  color:#666;
+}
+
+.teacher .card-container .card .icons a{
+  font-size: 1.9rem;
+  padding:1.5rem .5rem;
+  color:var(--pink);
+}
+
+.teacher .card-container .card .icons a:hover{
+  color:var(--violet);
+}
+h1,h3
+{
+     text-align: center;}
+ <!-- teacher section ends  -->
